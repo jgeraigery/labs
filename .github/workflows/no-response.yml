@@ -19,7 +19,7 @@ jobs:
     runs-on: ubuntu-latest
     if: ${{ github.repository_owner == 'dart-lang' }}
     steps:
-      - uses: actions/stale@5bef64f19d7facfb25b37b414482c7164d639639
+      - uses: actions/stale@816d9db1aba399a7f70277f1a2b01a4d21497fdd
         with:
           # Don't automatically mark inactive issues+PRs as stale.
           days-before-stale: -1
