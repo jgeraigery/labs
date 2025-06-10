@@ -82,7 +82,7 @@ jobs:
         working-directory: pkgs/io_file/mobile_test
     steps:
       - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
-      - uses: subosito/flutter-action@f2c4f6686ca8e8d6e6d0f28410eeef506ed66aff
+      - uses: subosito/flutter-action@395322a6cded4e9ed503aebd4cc1965625f8e59a
         with:
           flutter-version: any
           channel: 'stable'
