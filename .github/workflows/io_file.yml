@@ -86,7 +86,7 @@ jobs:
         with:
           flutter-version: any
           channel: 'stable'
-      - uses: futureware-tech/simulator-action@dab10d813144ef59b48d401cd95da151222ef8cd
+      - uses: futureware-tech/simulator-action@23a3133dfeb6b4fde3cfbaac0b1e32fae97da389
         with:
           os: iOS
           os_version: '>=13.0'
